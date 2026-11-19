@@ -1,0 +1,23 @@
+{
+  "name": "@devguard/browser-telemetry",
+  "version": "1.0.0",
+  "description": "Lightweight client-side browser exception reporting and user journey telemetry for DevGuard",
+  "main": "src/devguard-web-telemetry.js",
+  "module": "src/devguard-web-telemetry.js",
+  "types": "src/devguard-web-telemetry.d.ts",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "devguard",
+    "telemetry",
+    "crash-reporting",
+    "breadcrumbs",
+    "user-journey",
+    "browser",
+    "error-tracking"
+  ],
+  "author": "DevGuard",
+  "license": "MIT"
+}
