@@ -1,5 +1,5 @@
 {
-  "name": "@devguard/browser-telemetry",
+  "name": "@devguard-uk/browser-telemetry",
   "version": "1.0.0",
   "description": "Lightweight client-side browser exception reporting and user journey telemetry for DevGuard",
   "main": "src/devguard-web-telemetry.js",

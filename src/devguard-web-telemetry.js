@@ -1,5 +1,5 @@
 /**
- * @devguard/browser-telemetry
+ * @devguard-uk/browser-telemetry
  * Lightweight browser exception reporting & breadcrumbs (<4KB minified).
  */
 (function (root, factory) {

@@ -1,4 +1,4 @@
-# @devguard/browser-telemetry
+# @devguard-uk/browser-telemetry
 
 Lightweight client-side browser exception reporting, breadcrumbs, and user journey tracking for applications protected by DevGuard.
 
@@ -26,7 +26,7 @@ Lightweight client-side browser exception reporting, breadcrumbs, and user journ
 Or via ES module / Bundlers:
 
 ```javascript
-import { initDevGuardWebTelemetry, recordUserLog, captureException } from '@devguard/browser-telemetry';
+import { initDevGuardWebTelemetry, recordUserLog, captureException } from '@devguard-uk/browser-telemetry';
 
 initDevGuardWebTelemetry({
   projectId: 'YOUR_PROJECT_ID',
