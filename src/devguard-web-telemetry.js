@@ -245,7 +245,8 @@
         return false;
       }
       S.pid = opt.projectId;
-      S.key = opt.apiKey || null;
+      // Prefer publishable project sdkKey; legacy apiKey remains a fallback.
+      S.key = opt.sdkKey || opt.apiKey || null;
       S.ep = opt.endpoint || '/api/v1/telemetry';
       S.rate = typeof opt.sampleRate === 'number' ? Math.max(0, Math.min(1, opt.sampleRate)) : 1;
       S.crumbs = opt.enableBreadcrumbs !== false;

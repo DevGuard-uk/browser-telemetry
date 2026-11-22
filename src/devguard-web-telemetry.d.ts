@@ -1,5 +1,8 @@
 export interface DevGuardWebTelemetryOptions {
   projectId: string;
+  /** Preferred publishable project SDK key (dg_sdk_*). Never use the account Master Secret in the browser. */
+  sdkKey?: string | null;
+  /** Legacy fallback when sdkKey is unset. */
   apiKey?: string | null;
   endpoint?: string;
   sampleRate?: number;

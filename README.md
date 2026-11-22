@@ -17,7 +17,8 @@ Lightweight client-side browser exception reporting, breadcrumbs, and user journ
 <script>
   DevGuardWebTelemetry.init({
     projectId: 'YOUR_PROJECT_ID',
-    apiKey: 'YOUR_API_KEY',
+    // Publishable project SDK key only — never the account Master Secret in the browser.
+    sdkKey: 'YOUR_PROJECT_SDK_KEY',
     endpoint: 'https://api.devguard.uk/api/v1/telemetry'
   });
 </script>
@@ -30,7 +31,7 @@ import { initDevGuardWebTelemetry, recordUserLog, captureException } from '@devg
 
 initDevGuardWebTelemetry({
   projectId: 'YOUR_PROJECT_ID',
-  apiKey: 'YOUR_API_KEY',
+  sdkKey: 'YOUR_PROJECT_SDK_KEY',
   endpoint: 'https://api.devguard.uk/api/v1/telemetry',
   sampleRate: 1.0,
   enableBreadcrumbs: true
